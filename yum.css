@@ -415,7 +415,10 @@
         display: flex;
         flex-direction: column;
         padding-right: 95px;
+        padding: 0;
         
+    }
+    
     }
     .boxOrange{
         display: none;
@@ -429,14 +432,44 @@
     .boxTexte{
         display: flex;
         align-items: center;
-        width: 22%;
+        width: 32%;
+    }
+    .boxLien{
+        width: 200px;
     }
     .texteTitre{
         display: flex;
         flex-wrap: wrap;
         text-align: center;
     }
-
+    .boxPhotoAdresses{
+        padding-top: 0;
+    }
+    .boxTexteAdresse{
+        padding: 15px 15px 0px 15px;
+    }
+    .boxPhoto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .boxPhoto-texte{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo{
+        display: none;
+    }
+    .h2o{
+        display: none;
+    }
+    .contactez-nous{
+        width: 200px;
+        margin-left: 100px;
+    }
     .slider {
         display: block; /* Afficher le slider */
         
