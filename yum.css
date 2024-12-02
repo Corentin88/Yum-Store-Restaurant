@@ -406,11 +406,35 @@
     
 }
 @media(max-width:425px){
+    .header{
+        display: flex;
+        justify-content: center;
+         
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        padding-right: 95px;
+        
+    }
     .boxOrange{
         display: none;
     }
     .boxPhotoReseau {
         display: none; /* Masquer la galerie d'images normale */
+    }
+    .boxLogo{
+        display: none;
+    }
+    .boxTexte{
+        display: flex;
+        align-items: center;
+        width: 22%;
+    }
+    .texteTitre{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
     }
 
     .slider {
