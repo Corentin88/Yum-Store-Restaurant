@@ -1,0 +1,513 @@
+@font-face {
+    font-family: Bebas;
+    src: url(Bebas_Neue/BebasNeue-Regular.ttf) format('opentype');
+}
+@font-face {
+    font-family: Mont;
+    src: url(Montserrat/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+:root {
+	--main-color-noir: black;
+	--main-color-orange: rgb(185, 67, 20);
+	--main-color-blanc: white;
+	--main-color-gris: rgb(240, 233, 233);
+    --main-color-rouge: rgb(221, 5, 5) ;
+
+}
+.body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.background-Grey{
+    background-color: var(--main-color-gris);
+    width: 1600px;
+}
+.h2{
+    text-align: center;
+    text-decoration: 2px underline red;
+    font-family: 'bebas';
+}
+.h3{
+    font-family: 'bebas';
+    font-size: 45px;
+    margin: 0;
+    padding-top: 30px;
+}
+/*HEADER*/
+
+
+.header{
+    padding-bottom: 10px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+    padding-left: 100px;
+    
+}
+.imageLogoHeader{
+    width: 100px;
+    padding: 10px;
+}
+.active{
+    text-decoration: 2px underline red;
+    padding: 5px;
+    font-family: 'bebas';
+    font-size: 20px;
+    color: var(--main-color-noir);
+   
+}
+.lien{
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'bebas';
+    font-size: 20px;
+    color: var(--main-color-noir);
+}
+.lien-ClickCollect{
+    font-family: 'bebas';
+}
+/* MAIN TITRE LOGO*/
+
+
+.box{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+.boxTexte{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.texteTitre1{
+    margin-bottom: 5px;
+    font-family: 'bebas';
+    font-weight: bold;
+    font-size: 30px;
+}
+.texteTitre{
+    margin-top: 0;
+    font-family: 'mont';
+    font-weight: 600;
+}
+.boxLogo{
+    display: flex;
+}
+.logoTitre{
+    width: 100%;
+}
+.boxLien{
+    padding-top: 15px;
+    
+    
+    
+}
+.lien-ClickCollect{
+    background-color: var(--main-color-noir);
+    color: var(--main-color-blanc);
+    padding: 10px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* ADRESSES PHOTO*/
+
+.boxPhotoAdresses{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.boxPhoto{
+        display:flex;
+        justify-content: space-evenly;
+        padding: 15px 20px;
+        
+    }
+
+.boxTexteAdresse{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.photo{
+    padding-bottom: 5px;
+}
+
+.titreTextePhoto{
+    font-family: 'mont';
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.textePhoto{
+    font-family: 'mont';
+    font-size: 15px;
+    margin: 0;
+}
+/*BOITE ORANGE*/
+
+.boxOrange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color-orange);
+    height: 200px;
+    gap: 20px;
+}
+.lien-Collect-Click{
+    background-color: var(--main-color-noir);
+    color: var(--main-color-blanc);
+    padding: 10px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'bebas';
+}
+.textBoxOrange{
+    color: var(--main-color-blanc);
+    display: flex;
+    align-content: center;
+    font-family: 'mont';
+    font-weight: 500;
+}
+
+/*fin de page*/
+
+.finDePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.texteSavoirFaire{
+    text-align: justify;
+    padding: 0px 100px;
+    font-family: 'mont';
+
+}
+.boxPhoto{
+    display: flex;
+    justify-content: center;
+}
+.boxPhotoReseau{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;   
+}
+.image{
+    width:calc(90%/3);
+    height: auto;
+    max-width: 100%;
+    padding: 10px;   
+}
+
+.contactez-nous{
+    text-align: center;
+    font-family: 'mont';
+    padding-bottom: 50px;
+}
+.texteContact{
+    margin: 0;
+}
+.lienEmail{
+    text-decoration: none;
+    color: var(--main-color-noir);
+}
+
+/* FOOTER*/
+
+.footer{
+    background-color: var(--main-color-noir);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 150px;
+    padding-right: 100px;
+}
+.lienLogo{
+    padding: 20px;
+}
+
+/*PAGE MENU*/
+
+.motRouge{
+    color:var(--main-color-rouge);
+}
+.titreMenu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+
+.menu{
+    background: var(--main-color-blanc);
+    margin: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+.texteMenuPlat{
+    font-family: 'mont';
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.texteComposition{
+    font-family: 'mont';
+    font-weight: 200;
+}
+.texteMenu{
+    font-family: 'mont';
+    font-weight: 400;
+}
+
+/* PAGE 3 CONTACT*/
+
+
+.boxMap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.boxAdresse{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 300px;
+}
+.texteCompo{
+    margin: 1px;
+    font-family: 'mont';
+}
+.bordureRouge{
+    border-left: 2px solid var(--main-color-rouge);
+    padding-left: 3px;
+    margin: 0;
+}
+.titreAdresse{
+    font-family: 'bebas';
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+
+/* MEDIA QUERIES*/
+
+@media(min-width:426px) and (max-width:768px) {
+    .logoTitre,.box{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .boxPhotoAdresses{
+        padding-top: 0;
+    }
+    .boxPhoto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo{
+        padding-top: 10px;
+    }
+    /*Page Menu*/
+    .menu2{
+        background: var(--main-color-blanc);
+        margin: 0px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    .boxOrange2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-color-gris);
+        height: 30px;
+        padding-bottom: 50px;
+        
+    }
+    .lien-Collect-Click2{
+        background-color: var(--main-color-orange);
+        color: var(--main-color-noir);
+        padding: 10px 50px;
+        border-radius: 3px;
+        text-decoration: none;
+        font-family: 'mont';
+        font-weight: 900;
+        
+    }
+    .textBoxOrange2{
+        color: var(--main-color-gris);
+        display: flex;
+        align-content: center;
+        font-family: 'mont';
+        font-weight: 500;
+    }
+    .titreMenu h3{
+        display: flex;
+        padding-left: 25%;
+        text-decoration: underline;
+    }
+
+    /*Page 3 Contact*/
+
+    .boxOrange3{
+        display: none;
+    }
+    .logoTitre{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+    }
+    .boxMap{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    .boxAdresse{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 0;
+        padding-left: 10%;
+        padding-top: 1%;
+
+    }
+    .adresseMap{
+        margin-right: 8px;
+    }
+    .map{
+        width: 55%;
+    }
+    .imageBoxMap{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    
+}
+@media(max-width:425px){
+    .boxOrange{
+        display: none;
+    }
+    .boxPhotoReseau {
+        display: none; /* Masquer la galerie d'images normale */
+    }
+
+    .slider {
+        display: block; /* Afficher le slider */
+        
+    }
+    .slider {
+        position: relative;
+        width: 100%;
+        max-width: 425px;
+        overflow: hidden;
+    }
+    
+    /* Slides container */
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 600%; /* 100% per slide x number of slides */
+        align-items: center;
+        align-content: center;
+    }
+    
+    /* Single slide */
+    .slide {
+        min-width: 100%; /* Each slide takes full width */
+        transition: 0.5s;
+        
+    }
+    
+    /* Images inside the slides */
+    .image {
+        width: 10%;
+        height: auto;
+        padding-left: 3%;
+    }
+    
+    /* Navigation (radio buttons) */
+    input[type="radio"] {
+        display: none; /* Hide radio buttons */
+    }
+    
+    /* Navigation dots */
+    .navigation {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 10px;
+    }
+    
+    .navigation label {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #ccc;
+        cursor: pointer;
+    }
+    
+    input#slide1:checked ~ .slides {
+        transform: translateX(0%);
+    }
+    
+    input#slide2:checked ~ .slides {
+        transform: translateX(-100%);
+    }
+    
+    input#slide3:checked ~ .slides {
+        transform: translateX(-200%);
+    }
+    
+    input#slide4:checked ~ .slides {
+        transform: translateX(-300%);
+    }
+    
+    input#slide5:checked ~ .slides {
+        transform: translateX(-400%);
+    }
+    
+    input#slide6:checked ~ .slides {
+        transform: translateX(-500%);
+    }
+    
+    input#slide1:checked ~ .navigation label:nth-child(1),
+    input#slide2:checked ~ .navigation label:nth-child(2),
+    input#slide3:checked ~ .navigation label:nth-child(3),
+    input#slide4:checked ~ .navigation label:nth-child(4),
+    input#slide5:checked ~ .navigation label:nth-child(5),
+    input#slide6:checked ~ .navigation label:nth-child(6) {
+        background: #333;
+    }
+}
+
+
+
+@media (min-width:426px){
+    .slider{
+        display: none;
+    }
+}
